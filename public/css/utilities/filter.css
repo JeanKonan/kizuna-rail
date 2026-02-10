@@ -1,0 +1,19 @@
+#filters {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+
+    .filter-item {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 0.5rem;
+
+        label {
+            font-weight: bold;
+        }
+
+        &:last-child {
+            justify-self: end;
+        }
+    }
+
+}
